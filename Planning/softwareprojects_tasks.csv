@@ -1,0 +1,34 @@
+title,description,labels
+Add dry-run mode to Push All Projects,Implement a preview mode that shows what would be committed and pushed without making changes.,PushAllProjects;Enhancement;High Priority
+Add colour-coded summary output,Add a green/yellow/red summary at the end of the run showing which repos changed or failed.,PushAllProjects;UI;Enhancement
+Add commit message type selection,Add a menu for selecting commit types (feat, fix, docs, chore, etc.) before entering the message.,PushAllProjects;Enhancement;High Priority
+Add pause at end of script,Pause execution at the end so the user can read the output before the window closes.,PushAllProjects;UX
+Add PAT environment variable check,Warn the user if the GitHub PAT environment variable is missing.,PushAllProjects;Enhancement
+Add skip-repo option during scanning,Allow the user to skip committing/pushing a specific repo during the run.,PushAllProjects;Enhancement
+Add push-only-these-repos filter,Allow specifying a list of repos to process instead of scanning all.,PushAllProjects;Enhancement;Medium Priority
+Add commit message templates,Provide reusable templates for common commit types.,PushAllProjects;Enhancement
+Add repo-specific default commit types,Allow repos to define a default commit type.,PushAllProjects;Enhancement
+Add auto-suggest commit type,Infer commit type based on changed files (e.g., docs changes → docs).,PushAllProjects;Enhancement
+Add repo health check,Detect missing README, LICENSE, or .gitignore files.,RepoManager;Enhancement
+Add rename confirmation prompts,Ask for confirmation before renaming repos.,RepoManager;Safety
+Add archive reporting,Generate a list of archived repos.,RepoManager;Enhancement
+Add auto-skip archived repos,Skip archived repos during scans.,RepoManager;Enhancement
+Add dry-run mode to Repo Manager,Preview lifecycle changes without applying them.,RepoManager;Enhancement
+Integrate Push All Projects into Repo Manager,Combine lifecycle and sync operations into one unified tool.,RepoManager;PushAllProjects;Long Term
+Extend Documentation Index Generator to create MasterProjectList.md,Parse the RTF and generate a Markdown version automatically.,Documentation;Automation;High Value
+Add documentation completeness checker,Detect missing READMEs, architecture docs, or templates.,Documentation;Automation
+Add documentation health check,Scan for missing or outdated documentation files.,Documentation;Automation
+Auto-update MasterProjectList when new project is created,Automatically insert new project entries into the RTF and Markdown versions.,Documentation;Automation;Long Term
+Auto-generate architecture stubs for new projects,Create architecture files from templates.,Documentation;Automation
+Auto-generate README.md from template,Create a README for new projects automatically.,Documentation;Automation
+Design New Project Wizard,Create a guided script for project creation.,NewProjectWorkflow;High Value
+Automate folder creation,Automatically create project folder structure.,NewProjectWorkflow;Automation
+Automate GitHub repo creation,Automatically create GitHub repos for new projects.,NewProjectWorkflow;Automation
+Automate MasterProjectList update,Automatically update the RTF and Markdown versions.,NewProjectWorkflow;Automation
+Automate documentation index update,Regenerate Documentation_Index.md automatically.,NewProjectWorkflow;Automation
+Automate initial commit and push,Perform first commit and push for new projects.,NewProjectWorkflow;Automation
+Port Repo Manager to Python,Rewrite Repo Manager in Python for maintainability.,Ecosystem;Long Term
+Port Push All Projects to Python,Rewrite Push All Projects in Python.,Ecosystem;Long Term
+Package Python version as EXE,Bundle Python tools into a standalone Windows executable.,Ecosystem;Long Term
+Build GUI wrapper for ecosystem tools,Create a graphical interface for Repo Manager and Push All Projects.,Ecosystem;Long Term
+Add ecosystem health dashboard,Provide a high-level overview of repo status, documentation status, and sync status.,Ecosystem;Long Term
